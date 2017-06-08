@@ -1,0 +1,24 @@
+{
+  "name": "prueba-webpack",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node node_modules/.bin/webpack-dev-server"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "^6.24.1",
+    "babel-loader": "^7.0.0",
+    "babel-preset-env": "^1.5.2",
+    "css-loader": "^0.28.4",
+    "style-loader": "^0.18.2",
+    "stylus": "^0.54.5",
+    "stylus-compiler": "^0.2.1",
+    "stylus-loader": "^3.0.1",
+    "webpack": "^2.6.1",
+    "webpack-dev-server": "^2.4.5"
+  }
+}
